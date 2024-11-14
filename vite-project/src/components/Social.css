@@ -1,0 +1,57 @@
+
+.social-container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+}
+
+.social-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-button {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+  /* text-transform: uppercase; */
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-button i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.social-button.instagram {
+    background-color: #E1306C;
+}
+
+.social-button.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-button:hover {
+    transform: scale(1.05);
+}
+
+.social-button:active {
+    transform: scale(0.98);
+}
